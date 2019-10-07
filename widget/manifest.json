@@ -1,0 +1,56 @@
+{
+    "widget":{
+        "name": "widget.name",
+        "description": "widget.description",
+        "short_description": "widget.short_description",
+        "code": "radioaktive_google_spreadsheets",
+        "secret_key": "------your-secret-key------",
+        "version": "1.0.0",
+        "interface_version": 2,
+        "init_once": true,
+        "locale":[
+            "ru",
+            "en"
+        ],
+        "installation": true,
+        "support": {
+            "link": "radioaktive@dvij.info",
+            "email": "radioaktive@protonmail.com"
+        }
+    },
+    "locations":[
+        "ccard-1",
+        "clist-0",
+        "lcard-1",
+        "llist-0",
+        "settings"
+    ],
+    "tour": {
+        "is_tour": true,
+        "tour_images": {
+            "ru": [
+                "/images/logo_main.png",
+                "/images/logo_main.png",
+                "/images/logo_main.png"
+            ]
+        },
+        "tour_description": "widget.tour_description"
+    },
+    "settings":{
+         "login":{
+             "name": "settings.login",
+             "type": "text",
+             "required": true
+         },
+         "api_key":{
+             "name": "settings.api_key",
+             "type": "text",
+             "required": true
+         },
+         "account":{
+             "name": "settings.account",
+             "type": "text",
+             "required": true
+         }
+    }
+}
