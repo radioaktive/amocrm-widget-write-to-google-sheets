@@ -8,6 +8,8 @@ amocrm widget to store data from amocrm  to google sheets
 
 Виджет для Amocrm, сохраняет данные контакта из amocrm в Google Sheets.
 
+Записывает данные контакта в google sheets по нажатию на виджет в менюшке выбранного контакта. 
+
 Использует [Google Apps Script](https://developers.google.com/apps-script/).
 
 
